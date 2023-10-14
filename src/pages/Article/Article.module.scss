@@ -1,0 +1,26 @@
+.article {
+  margin: 10px 13.1%;
+  font-family: Nunito;
+  width: 70%;
+
+  h1 {
+    margin-bottom: 30px;
+    font-family: Yanone Kaffeesatz;
+  }
+
+  article {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  &__category {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+}
+
+

@@ -1,0 +1,53 @@
+.test {
+  margin: 10px 13.1%;
+  font-family: Nunito;
+  width: 70%;
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin-left: 40%;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__header {
+    &__main {
+      display: flex;
+      margin-bottom: 20px;
+    }
+  }
+
+  //   &__progressBar {
+  //     border-radius: 13px;
+  //     border: 1px solid #000;
+  //     background: #fff;
+  //     padding: 0;
+  //   }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    &__answer {
+      width: 358px;
+      height: 48px;
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: 1px solid #000;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+}
+
+.selected {
+  background-color: #b9ffa0;
+}

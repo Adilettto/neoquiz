@@ -1,0 +1,41 @@
+.quiz {
+  margin: 10px 13.1%;
+  font-family: Nunito;
+  width: 70%;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 626px;
+    margin-left: 15%;
+
+    h2 {
+      background: url(../../assets/background.png);
+      width: 244px;
+      height: 44px;
+      text-align: center;
+      padding-top: 10px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 242px;
+      height: 224px;
+      margin-bottom: 20px;
+    }
+
+    article {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+}

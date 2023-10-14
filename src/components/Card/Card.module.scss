@@ -1,0 +1,25 @@
+.card {
+  background-color: #ffe0a3;
+  position: relative;
+  width: 300px;
+  height: 234px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
+
+  img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+  }
+
+  &__title {
+    font-size: 20px;
+    width: 233px;
+    white-space: wrap;
+  }
+}

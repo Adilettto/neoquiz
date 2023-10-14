@@ -1,0 +1,30 @@
+.articleCard {
+  width: 462px;
+  height: 160px;
+  background-color: #ffe0a3;
+  padding: 33px 24px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #000;
+
+  h2 {
+    font-size: 22px;
+    max-width: 249px;
+    font-weight: 700;
+    height: 80px;
+    overflow: scroll;
+  }
+
+  &__category {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    font-weight: 700;
+  }
+
+  &__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
